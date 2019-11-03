@@ -1,0 +1,15 @@
+C:\Coding\Thomas\Git\Enigma_Csharp\Enigma\bin\Debug\Enigma.exe.config
+C:\Coding\Thomas\Git\Enigma_Csharp\Enigma\bin\Debug\Enigma.exe
+C:\Coding\Thomas\Git\Enigma_Csharp\Enigma\bin\Debug\Enigma.pdb
+C:\Coding\Thomas\Git\Enigma_Csharp\Enigma\obj\Debug\MainWindow.g.cs
+C:\Coding\Thomas\Git\Enigma_Csharp\Enigma\obj\Debug\App.g.cs
+C:\Coding\Thomas\Git\Enigma_Csharp\Enigma\obj\Debug\Enigma_MarkupCompile.cache
+C:\Coding\Thomas\Git\Enigma_Csharp\Enigma\obj\Debug\Enigma_MarkupCompile.lref
+C:\Coding\Thomas\Git\Enigma_Csharp\Enigma\obj\Debug\MainWindow.baml
+C:\Coding\Thomas\Git\Enigma_Csharp\Enigma\obj\Debug\Enigma.g.resources
+C:\Coding\Thomas\Git\Enigma_Csharp\Enigma\obj\Debug\Enigma.Properties.Resources.resources
+C:\Coding\Thomas\Git\Enigma_Csharp\Enigma\obj\Debug\Enigma.csproj.GenerateResource.cache
+C:\Coding\Thomas\Git\Enigma_Csharp\Enigma\obj\Debug\Enigma.csproj.CoreCompileInputs.cache
+C:\Coding\Thomas\Git\Enigma_Csharp\Enigma\obj\Debug\Enigma.exe
+C:\Coding\Thomas\Git\Enigma_Csharp\Enigma\obj\Debug\Enigma.pdb
+C:\Coding\Thomas\Git\Enigma_Csharp\Enigma\obj\Debug\Enigma.csprojAssemblyReference.cache
