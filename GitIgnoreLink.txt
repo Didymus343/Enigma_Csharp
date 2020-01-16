@@ -1,0 +1,3 @@
+https://elanderson.net/2016/09/add-git-ignore-to-existing-visual-studio-project/
+
+Handy link to add VS 2019 git ignore file to a sollution environment
