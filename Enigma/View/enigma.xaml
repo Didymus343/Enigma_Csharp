@@ -1,0 +1,92 @@
+﻿<UserControl  x:Class="Enigma.View.enigma"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:p="clr-namespace:Enigma.Properties"
+        xmlns:local="clr-namespace:Enigma.View"
+        mc:Ignorable="d"
+        Title="{x:Static p:Resources.MainTitle}" Height="450" Width="600">
+    <Grid Background="Beige">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="450"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Main body area -->
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+
+            <!-- input body-->
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0">
+                    <Label Content="{x:Static p:Resources.InputLabel}"
+                       Foreground="Black"
+                       FontSize="20"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center">
+
+                    </Label>
+                    <TextBox Text="{x:Static p:Resources.InputBaseText}"
+                         MaxLength="50"
+                         FontSize="15"
+                         Margin="20"
+                         VerticalAlignment="Center"
+                         HorizontalAlignment="Center">
+
+                    </TextBox>
+                </StackPanel>
+                <StackPanel Grid.Row="1">
+                    <Label Content="{x:Static p:Resources.CipherLabel}"
+                       Foreground="Black"
+                       FontSize="20"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center">
+
+                    </Label>
+                    <TextBox Text="{x:Static p:Resources.CipherBaseText}"
+                         MaxLength="50"
+                         FontSize="15"
+                         Margin="20"
+                         VerticalAlignment="Center"
+                         HorizontalAlignment="Center">
+
+                    </TextBox>
+                </StackPanel>
+            </Grid>
+
+            <!-- output body-->
+            <Grid Grid.Row="2">
+                <StackPanel Grid.Row="1">
+                    <Label Content="{x:Static p:Resources.OutputLabel}"
+                       Foreground="Black"
+                       FontSize="20"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center">
+
+                    </Label>
+                    <TextBox Text="{x:Static p:Resources.CipherBaseText}"
+                         MaxLength="50"
+                         FontSize="15"
+                         Margin="20"
+                         VerticalAlignment="Center"
+                         HorizontalAlignment="Center">
+
+                    </TextBox>
+                </StackPanel>
+            </Grid>
+
+        </Grid>
+
+    </Grid>
+</UserControl>
