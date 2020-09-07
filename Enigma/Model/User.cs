@@ -13,5 +13,7 @@ namespace Enigma.Model
         public string LastName { get; set; }
 
         public DateTime BirthDay { get; set; }
+
+        //Small change to check Git setting
     }
 }
