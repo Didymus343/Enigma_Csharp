@@ -6,7 +6,7 @@
         xmlns:p="clr-namespace:Enigma.Properties"
         xmlns:local="clr-namespace:Enigma.View"
         mc:Ignorable="d"
-        Title="{x:Static p:Resources.MainTitle}" Height="450" Width="600">
+        Height="450" Width="600">
     <Grid Background="Beige">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
@@ -30,14 +30,14 @@
                     <RowDefinition Height="1*"/>
                 </Grid.RowDefinitions>
                 <StackPanel Grid.Row="0">
-                    <Label Content="{x:Static p:Resources.InputLabel}"
+                    <Label Content="Name"
                        Foreground="Black"
                        FontSize="20"
                        HorizontalAlignment="Center"
                        VerticalAlignment="Center">
 
                     </Label>
-                    <TextBox Text="{x:Static p:Resources.InputBaseText}"
+                    <TextBox Text="Name"
                          MaxLength="50"
                          FontSize="15"
                          Margin="20"
@@ -47,14 +47,14 @@
                     </TextBox>
                 </StackPanel>
                 <StackPanel Grid.Row="1">
-                    <Label Content="{x:Static p:Resources.CipherLabel}"
+                    <Label Content="Name"
                        Foreground="Black"
                        FontSize="20"
                        HorizontalAlignment="Center"
                        VerticalAlignment="Center">
 
                     </Label>
-                    <TextBox Text="{x:Static p:Resources.CipherBaseText}"
+                    <TextBox Text="Name"
                          MaxLength="50"
                          FontSize="15"
                          Margin="20"
@@ -68,14 +68,14 @@
             <!-- output body-->
             <Grid Grid.Row="2">
                 <StackPanel Grid.Row="1">
-                    <Label Content="{x:Static p:Resources.OutputLabel}"
+                    <Label Content="Name"
                        Foreground="Black"
                        FontSize="20"
                        HorizontalAlignment="Center"
                        VerticalAlignment="Center">
 
                     </Label>
-                    <TextBox Text="{x:Static p:Resources.CipherBaseText}"
+                    <TextBox Text="Name"
                          MaxLength="50"
                          FontSize="15"
                          Margin="20"

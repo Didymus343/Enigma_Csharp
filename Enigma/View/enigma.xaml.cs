@@ -17,7 +17,7 @@ namespace Enigma.View
     /// <summary>
     /// Interaction logic for enigma.xaml
     /// </summary>
-    public partial class enigma : Window
+    public partial class enigma : UserControl
     {
         public enigma()
         {

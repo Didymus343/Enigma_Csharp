@@ -1,5 +1,4 @@
-﻿using Enigma.ViewModel;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,22 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Enigma.View
+namespace Enigma.StarField
 {
     /// <summary>
-    /// Interaction logic for UserView.xaml
+    /// Interaction logic for UserControl1.xaml
     /// </summary>
-    public partial class UserView : UserControl
+    public partial class UserControl1 : UserControl
     {
-        private readonly UserViewModel _userViewModel;
-
-        public UserView()
+        public UserControl1()
         {
             InitializeComponent();
-            _userViewModel = new UserViewModel();
-            DataContext = _userViewModel;
         }
     }
 }
